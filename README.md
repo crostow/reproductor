@@ -12,6 +12,9 @@ Nota: si lo utilizas o lo modificas solo haz
 
 Autor: abuelazo
 
-Correo: mauro_ruiz2001@hotmaial.com
+Correo:
+        
+        mauro_ruiz2001@hotmaial.com
+
         crostow.ewinkeiton@gmail.co
         
