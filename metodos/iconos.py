@@ -12,6 +12,7 @@
 
 #importamos las librerias necesarias
 from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import QSize
 
 '''
 Cargamos los iconos a la interfaz
@@ -28,9 +29,12 @@ def iconos(self):
     self.volumen_2 = QIcon("iconos/volume-2.png")
     self.mute = QIcon("iconos/muted.png")
     self.abrir = QIcon("iconos/volume-2.png")
-    self.salir = QIcon("iconos/muted.png")
+    self.salir = QIcon("iconos/close.png")
     self.ui.menu_abrir.setIcon(self.abrir)
     self.ui.menu_salir.setIcon(self.salir)
     self.ui.stop.setIcon(self.stop)
+    self.ui.stop.setIconSize(QSize(30, 30))
     self.ui.play.setIcon(self.play)
+    self.ui.play.setIconSize(QSize(30, 30))
     self.ui.mute.setIcon(self.volumen)
+    self.ui.mute.setIconSize(QSize(30, 30))
