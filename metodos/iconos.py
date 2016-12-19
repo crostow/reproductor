@@ -17,6 +17,10 @@ from PyQt5.QtGui import QIcon
 Cargamos los iconos a la interfaz
 '''
 def iconos(self):
+    '''
+    cargamos todos los iconos a las variables para
+    su utilizacion despues y se asignan a los botones
+    '''
     self.play = QIcon("iconos/play.png")
     self.pausa = QIcon("iconos/pause.png")
     self.stop = QIcon("iconos/stop.png")
